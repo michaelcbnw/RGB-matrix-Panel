@@ -1,5 +1,12 @@
 # Adafruit RGB Matrix Panel library [![Build Status](https://github.com/adafruit/RGB-matrix-Panel/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/RGB-matrix-Panel/actions)
-# Now, you can use 2 Panel
+# Now, you can use 2 panels of 16x32
+
+Set width to 64 to make it run for 2 panels.
+// Constructor for 32x16 or 64x16 panel:
+RGBmatrixPanel::RGBmatrixPanel(uint8_t a, uint8_t b, uint8_t c, uint8_t d,
+                               uint8_t clk, uint8_t lat, uint8_t oe,
+                               boolean dbuf, uint8_t width)
+
 
 This is an Arduino library for our 16x32 and 32x32 RGB LED matrix panels
 
